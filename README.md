@@ -1,4 +1,4 @@
-#Troubleshooting tips for newbie students to code institute
+# Troubleshooting tips for newbie CI students
 
 [View page here](https://ajgreaves.github.io/code-institute-student-tips/)
 
