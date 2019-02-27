@@ -1,4 +1,4 @@
-.background-container {
+.background-image {
     background-image: url("/assets/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,10 +18,12 @@ h1 {
 .problem-column {
     border: 2px solid black;
     border-radius: 5px;
+    background:rgba(255,255,255,0.8);
 }
 
 .troubleshoot-column  {
     border: 1px solid black;
     border-radius: 5px;
+    background:rgba(255,255,255,0.8);
 }
 
