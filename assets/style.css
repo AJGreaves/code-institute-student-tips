@@ -1,3 +1,26 @@
+/*--------------- FONTS ---------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Roboto+Mono');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+
+h2, h3, h4, h5,h6, h7, h8{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.code {
+    font-family: 'Roboto Mono', monospace;
+}
+
+/*--------------- BACKGROUND ---------------*/
+
 .background-image {
     background-image: url("/assets/background.jpg");
     background-repeat: no-repeat;
@@ -10,20 +33,16 @@
     height:100%;
 }
 
-h1 {
-    font-size: 40px;
-}
-
-
 .problem-column {
     border: 2px solid black;
     border-radius: 5px;
-    background:rgba(255,255,255,0.8);
+    background:rgba(255,255,255,0.9);
+    font-weight: 600;
 }
 
 .troubleshoot-column  {
     border: 1px solid black;
     border-radius: 5px;
-    background:rgba(255,255,255,0.8);
+    background:rgba(255,255,255,0.9);
 }
 
