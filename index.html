@@ -7,7 +7,7 @@
 		<meta name="description" content="Tips for Code Institute newbie students">
 		<meta name="keywords" content="CSS, HTML, Troubleshooting, Tips, Advice, Code Institute, coding, student">
 		<meta name="author" content="Anna Greaves">
-        <title>Newbie Tips for Code Institute Students</title>
+        <title>Troubleshooting Tips for Code Institute Students</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.2.1/css/bootstrap.min.css" />
     	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
         <link rel="stylesheet" href="assets/style.css" type="text/css" />
@@ -15,69 +15,109 @@
     <body>
         <div class="background-image"></div>
         
-        <header class="container-fluid mt-3 mb-3">
+        <header class="container-fluid mt-5 mb-5">
             <div class="row">
                 <div class="col-12 text-center">
-                    <h1>Newbie Tips</h1>
-                    <h4>For code institute students</h4>
+                    <h1>Troubleshooting Tips</h1>
+                    <h4>For newbie CI students</h4>
                 </div>
             </div>
         </header>
         
         <div class="container-fluid troubleshoot-container">
             <div class="row justify-content-center">
-                <div class="col-10 problem-column pt-3 mb-3">
+                <div class="col-10 col-md-8 problem-column pt-3 mb-3">
                     <h5><i class="fas fa-exclamation-circle"></i> Problem</h5>
-                    <p>The CSS on your project is not working properly, or is having no effect at all.</p>
+                    <p>The CSS on your project is not working as you expect it to, or is having no effect at all.</p>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-10 troubleshoot-column pt-3 mt-2">
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-2">
                     <h5><i class="fas fa-question"></i> Possible Reason #1</h5>
                     <p>The cache in your browser is not refreshing to your new CSS changes.</p>
                 </div>
-                <div class="col-10 troubleshoot-column pt-3 mt-2">
-                    <h5><i class="fas fa-wrench"></i> How to fix it:</h5>
-                    <p>When you view your code, always view it in a separate tab:</p>
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-2">
+                    <h5><i class="fas fa-wrench"></i> How to fix it</h5>
+                    <p>When you view your code, always view it in a separate tab. Don't use the preview window as it is buggy:</p>
                     <ul>
                         <li>In cloud 9, make sure your html file is open, click “run” at the top of the page. </li>
-                        <li>Click on the link provided at the bottom of the screen and select “Open” (NOT “Open in preview”, the preview window is buggy) </li>
+                        <li>Click on the link provided at the bottom of the screen and select “Open”.</li>
                     </ul>
                     <p>Now that you are viewing your page in a separate tab:</p>
                     <ul>
-                        <li>Click `Ctrl-f5` on windows or `CMD + SHIFT + R` on mac.</li> 
+                        <li>Click<span class="code"> Ctrl-f5 </span>on windows or<span class="code"> CMD + SHIFT + R </span>on mac.</li> 
                         <li>This will force the browser to refresh the cache and display your new CSS changes.</li>
                     </ul>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-10 troubleshoot-column pt-3 mt-3">
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-3">
                     <h5><i class="fas fa-question"></i> Possible Reason #2</h5>
-                    <p>You didn’t save your html file and/or your CSS file before refreshing the browser</p>
+                    <p>You didn’t save your html file and/or your CSS file before refreshing the browser.</p>
                 </div>
-                <div class="col-10 troubleshoot-column pt-3 mt-2">
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-2">
                     <h5><i class="fas fa-wrench"></i> How to fix it</h5>
                     <ul>
-                        <li>View the files in Cloud9, click `Ctrl-S` to save each file.</li>
-                        <li>Then view your page and refresh your browser using `Ctrl-f5` on windows or `CMD + SHIFT + R` on mac.</li>
+                        <li>View the files in Cloud9, click<span class="code"> Ctrl-S </span>on windows or<span class="code"> Command+S </span>on Mac to save each file.</li>
+                        <li>Then view your page and refresh your browser using<span class="code"> Ctrl-f5 </span> on windows or<span class="code"> CMD + SHIFT + R </span>on mac.</li>
                     </ul>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-10 troubleshoot-column pt-3 mt-3">
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-3">
                     <h5><i class="fas fa-question"></i> Possible Reason #3</h5>
                     <p>You forgot to link your CSS file to your html file.</p>
                 </div>
-                <div class="col-10 troubleshoot-column pt-3 mt-2">
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-2">
                     <h5><i class="fas fa-wrench"></i> How to fix it</h5>
-                    <p>How to fix description</p>
                     <ul>
-                        <li>In the head of your html file, type `link` and select “link snippet” from the dropdown that appears as you type.</li>
-                        <li>In the <span class="code">href=””</span> attribute, type the path to your CSS file between the two quotation marks. </li>
+                        <li>In the<span class="code"> head </span>of your html file, type<span class="code"> link </span> and select “link snippet” from the dropdown that appears as you type.</li>
+                        <li>In the<span class="code"> href=”” </span>attribute, type the path to your CSS file between the two quotation marks. </li>
                     </ul>
                     <p>(See below for how to find the right file path)</p>
                 </div>
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-3">
+                    <h5><i class="fas fa-question"></i> Possible Reason #4</h5>
+                    <p>The path to your CSS file in the<span class="code"> head </span>of your html file is incorrect.</p>
+                </div>
+                <div class="col-10 col-md-8 troubleshoot-column pt-3 mt-2 mb-5">
+                    <h5><i class="fas fa-wrench"></i> How to fix it</h5>
+                    <ul>
+                        <li>In your cloud9 workspace, look at the folders on the left side of the screen.</li>
+                        <li>Right click on your CSS file and select “Copy file path”.</li>
+                        <li>Locate the stylesheet link in the<span class="code"> head </span>of your html file.</li>
+                        <li>Paste the path to your CSS file between the two quotation marks in the<span class="code"> href="" </span> attribute of your stylesheet link </li>
+                        <li>If Cloud9 adds a<span class="code"> / </span>to the beginning of your path, take it out.</li>
+                    </ul>
+                    <p>Don't forget to save your files before refreshing your browser to check if it worked!</p>
+                </div>
             </div>
         </div>
+        
+        <footer class="page-footer bg-secondary text-white">
+			<div class="container pt-3">
+				<div class="row">
+					<div class="col-md-12 py-3">
+						<!-- SOCIAL ICONS/LINKS -->
+						<div class="mb-1 flex-centre text-center social-icon-shadow">
+							<a class="ic-fb" href="https://www.facebook.com/a.gilhespy" target="_blank" aria-label="Find me on Facebook" rel="noopener">
+								<i class="fab fa-facebook fa-lg mr-md-5 mr-3 fa-2x"></i>
+							</a>
+							<a class="ic-sla" href="https://code-institute-room.slack.com/messages/DF89S323B/" target="_blank" aria-label="Find me on Slack" rel="noopener">
+								<i class="fab fa-slack fa-lg mr-md-5 mr-3 fa-2x"></i>
+							</a>
+							<a class="ic-git" href="https://github.com/AJGreaves" target="_blank" aria-label="Find me on GitHub" rel="noopener">
+								<i class="fab fa-github fa-lg fa-2x"></i>
+							</a>
+						</div>
+						<!-- COPYRIGHT -->
+						<div class="text-shadow text-center py-3">
+							Developed by AGreaves 2019
+						</div>
+					</div>
+				</div>
+			</div>	
+		</footer>
+		
     </body>
 </html>
