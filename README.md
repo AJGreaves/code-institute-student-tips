@@ -1,18 +1,14 @@
+#Troubleshooting tips for newbie students to code institute
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+[View page here](https://ajgreaves.github.io/code-institute-student-tips/)
 
+## Common problems to solve
 
-Hi there! Welcome to Cloud9 IDE!
+1. css not working properly / having no effect
+    1. refesh browser cache
+    2. save html and css files before viewing
+    3. link css file to html file
+    4. check path to css file is correct
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+2. git push password not working
 
-Happy coding!
-The Cloud9 IDE team
