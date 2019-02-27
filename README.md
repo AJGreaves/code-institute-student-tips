@@ -12,3 +12,10 @@
 
 2. git push password not working
 
+### Technology used
+
+- [pxhere](https://pxhere.com/) used for copyright free background image.
+- [BootstrapCDN](https://www.bootstrapcdn.com/) used for easy to set up layout and styling.
+- [FontAwesome](https://www.bootstrapcdn.com/fontawesome/) used for for icons.
+- [wow.js](https://wowjs.uk/) used for animating troubleshooting tips boxes.
+- 
